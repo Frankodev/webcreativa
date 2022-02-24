@@ -1,0 +1,353 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- "favicon" icon of the page -->
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/png" />
+
+    <!-- icon for apple ios -->
+    <link rel="apple-touch-icon" href="./img/favicon.svg" />
+
+    <!-- icon for android cel -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/menu.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+
+    <!-- Ion Icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Etiqueta title & meta descripción -->
+    <title>Web Creativa | Agencia de Diseño y Desarrollo Web</title>
+    <meta
+      name="description"
+      content="Web Creativa es una agencia de marketing digital con sede en Acapulco de Juárez, Guerrero, México. Diseñamos y desarrollamos tu sitio web de una forma creativa y única. | Diseño Web, Posicionamiento SEO, Redes Sociales, Inbound Marketing | Wordpress | Páginas Web para Negocios, Tiendas en Línea, Landings Pages  ¿Por qué contratar una agencia de Marketing Digital?"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-215208310-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-215208310-1");
+    </script>
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <header id="header">
+      <div class="logo">
+        <img src="./img/logo_positivo.svg" alt="logo web creativa" />
+      </div>
+
+      <!-- CHECK MENÚ -->
+      <input
+        class="menu-icon"
+        type="checkbox"
+        id="menu-icon"
+        name="menu-icon"
+      />
+      <label for="menu-icon"></label>
+
+      <!-- NAV - MENÚ -->
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a class="link" href="#header">Inicio</a></li>
+          <li><a class="link" href="#servicios">Servicios</a></li>
+          <li><a class="link" href="#portafolio">Portafolio</a></li>
+          <li><a class="link" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- HERO - ABOUT -->
+      <div class="hero">
+        <div class="hero__about">
+          <p class="hero__about-descripcion">
+            Somos una agencia de diseño y desarrollo web con sede en Acapulco,
+            creamos tu sitio web desde cero de una forma creativa y única.
+          </p>
+          <div class="btn">
+            <span class="btn__typing"> Ver portafolio </span>
+            <a
+              role="button"
+              href="#portafolio"
+              class="btn__portafolio link"
+            ></a>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img src="./img/lap_webcreativa.png" alt="imagen de web creativa" />
+        </div>
+      </div>
+    </header>
+
+    <!-- SERVICIOS -->
+    <section class="servicios" id="servicios">
+      <h1 class="mt-6 scrollTop">Servicios</h1>
+      <main class="servicios__main">
+        <img
+          class="scrollLeft"
+          src="./img/complex.jpg"
+          alt="Imagen servicio Diseño y desarrollo web"
+        />
+        <div class="servicios__descripcion grid-2">
+          <div class="servicios__descripcion-icon">
+            <ion-icon name="people-circle-outline"></ion-icon>
+          </div>
+          <h2>Diseño y Desarrollo web</h2>
+          <p class="servicios__descripcion-parrafo">
+            Diseñamos y desarrollamos tu sitio web agradable, rápido y
+            optimizado
+          </p>
+        </div>
+
+        <div class="servicios__descripcion">
+          <div class="servicios__descripcion-icon">
+            <ion-icon name="color-palette-outline"></ion-icon>
+          </div>
+          <h2>UX / UI</h2>
+          <p class="servicios__descripcion-parrafo">
+            Hacemos tu sitio web adaptable para dispositivos móviles para
+            facilitar la experiencia de usuario
+          </p>
+        </div>
+        <img
+          class="scrollRight"
+          src="./img/layers.jpg"
+          alt="Imagen servicio UX / UI"
+        />
+
+        <img
+          class="scrollLeft"
+          src="./img/documentation.jpg"
+          alt="Imagen servicio SEO"
+        />
+        <div class="servicios__descripcion grid-6">
+          <div class="servicios__descripcion-icon">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+          <h2>SEO</h2>
+          <p class="servicios__descripcion-parrafo">
+            Haz que tus clientes te encuentren más rápido, optimizamos tu sitio
+            web para los diferentes motores de búsqueda
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <main class="portafolio" id="portafolio">
+      <h1 class="scrollTop">Portafolio</h1>
+      <div class="contenedor__cards">
+        <div class="card">
+          <figure class="card__img">
+            <a target="_blank" href="https://pacificodiamante.mx">
+              <img
+                src="./img/proj-PACIFICO.png"
+                alt="Projecto Pacífico Diamante Residencial"
+              />
+            </a>
+          </figure>
+          <div class="card__descripcion">
+            <h2>Pacífico Diamante Residencial</h2>
+            <p>
+              Pacífico Diamante Residencial es una empresa dedicada a construir
+              y vender departamentos de lujo ubicados en la Riviera Diamante
+              Acapulco.
+            </p>
+            <a role="button" href="https://pacificodiamante.mx" target="_blank"
+              >Ver proyecto</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="card__img">
+            <a target="_blank" href="https://casasydepas.net">
+              <img
+                src="./img/proj-CASASYDEPAS.png"
+                alt="Projecto aplicación web casasydepas.net"
+              />
+            </a>
+          </figure>
+          <div class="card__descripcion">
+            <h2>casasydepas.net</h2>
+            <p>
+              casasydepas.net es una plataforma en donde podras encontrar una
+              gran variedad de ofertas y oportunidades para comprar o rentar una
+              casa o departamento.
+            </p>
+            <a role="button" href="https://casasydepas.net" target="_blank"
+              >Ver proyecto
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="card__img">
+            <a target="_blank" href="https://wecar.mx">
+              <img src="./img/proj-WECAR.png" alt="Projecto Wecar Mx" />
+            </a>
+          </figure>
+          <div class="card__descripcion">
+            <h2>wecar mx</h2>
+            <p>
+              wecar es una plataforma para comprar y vender autos seminuevos
+              entre particulares, wecar brinda a sus usuarios la confianza y
+              seguridad de la transacción para ambas partes.
+            </p>
+            <a role="button" href="https://wecar.mx" target="_blank"
+              >Ver proyecto</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="card__img">
+            <a target="_blank" href="https://colorscssjs.netlify.app/">
+              <img
+                src="./img/proj-COLORS.png"
+                alt="Projecto librearía de colores de CSS"
+              />
+            </a>
+          </figure>
+          <div class="card__descripcion">
+            <h2>Librearía de Colores de CSS</h2>
+            <p>
+              Ejercicio con JavaScript, el renderizado de los elementos del
+              nombre del color y el color se crean por medio de funciones en
+              JavaScript, además al hacer click sobre un color se copiará su
+              nombre a tu portapapeles.
+            </p>
+            <a
+              role="button"
+              href="https://colorscssjs.netlify.app/"
+              target="_blank"
+              >Ver proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- CONTACTO -->
+    <section class="contacto pb-0" id="contacto">
+      <h1 class="scrollTop">contacto</h1>
+      <footer class="footer">
+        <div class="footer__contacto">
+          <h2>Contacto</h2>
+          <ul>
+            <li>
+              <a target="_blanck" href="https://wa.me/c/5217445889420">
+                Enviar WhatsApp
+                <span>
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blanck" href="https://goo.gl/maps/3dJ5Nr2mLjuVPCbAA">
+                Ver Mapa en Google
+                <span>
+                  <ion-icon name="navigate-circle-outline"></ion-icon>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:744-588-9420">
+                Hacer Llamada
+                <span>
+                  <ion-icon name="call-outline"></ion-icon>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <h2>Social</h2>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/casasydepas.net/"
+              >
+                <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/casasydepas.nt/"
+              >
+                <ion-icon class="instagram" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCsy46fE2z9OqUm586T8fVlg"
+              >
+                <ion-icon class="youtube" name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a target="_blank" href="https://github.com/Frankodev">
+                <ion-icon class="github" name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__img">
+          <img src="./img/logo_positivo.svg" alt="logo webcreativa.mx" />
+        </div>
+      </footer>
+      <div class="copyrith">
+        <p>
+          Hecho con
+          <span class="heart">
+            <img src="/img/heart.png" alt="imágen de un corazón" />
+          </span>
+          web creativa&reg;
+        </p>
+      </div>
+    </section>
+
+    <!-- WhatsApp -->
+    <div class="whatsapp">
+      <a target="_blanck" href="https://wa.me/c/5217445889420">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
+    </div>
+
+    <script src="/js/hoverlinks.js"></script>
+    <script src="/js/scrollreveal.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scroll.js"></script>
+  </body>
+</html>
