@@ -314,7 +314,7 @@ main img {
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.4s;
-  padding: 2rem 2rem 8rem 2rem;
+  /* padding: 2rem 2rem 8rem 2rem; */
   background-color: var(--color-card);
   position: relative;
   transition: all 0.4s;
@@ -343,12 +343,12 @@ main img {
   margin-bottom: 4.2rem;
 }
 
-.card__descripcion h2 {
+figcaption {
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--text-obscuro);
-  margin-bottom: 2.1rem;
-  text-transform: uppercase;
+  padding-bottom: 2.1rem;
+  /* text-transform: uppercase; */
 }
 
 .card__descripcion p {
