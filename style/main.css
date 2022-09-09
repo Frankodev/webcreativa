@@ -611,9 +611,7 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00ff7f;
-  background-color: #244242;
-  background-color: #199e0f;
+  background-color: #25d366;
   border-radius: 50%;
   z-index: 99999;
   /* animation: shadow-pulse 1s infinite; */
