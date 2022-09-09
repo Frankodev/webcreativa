@@ -605,16 +605,18 @@ figcaption {
 .whatsapp {
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  left: 2rem;
   width: 6.4rem;
   height: 6.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #00ff7f;
+  background-color: #244242;
+  background-color: #199e0f;
   border-radius: 50%;
   z-index: 99999;
-  animation: shadow-pulse 1s infinite;
+  /* animation: shadow-pulse 1s infinite; */
 }
 
 .whatsapp ion-icon {
@@ -623,7 +625,7 @@ figcaption {
   fill: #fff;
 }
 
-@keyframes shadow-pulse {
+/* @keyframes shadow-pulse {
   0% {
     box-shadow: 0 0 0 2.5px #00ff7f;
   }
@@ -639,4 +641,4 @@ figcaption {
   100% {
     box-shadow: 0 0 0 35px transparent;
   }
-}
+} */
