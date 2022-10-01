@@ -513,21 +513,23 @@ figcaption {
 .facebook,
 .instagram,
 .youtube,
-.github {
+.github,
+.blog {
   transition: all 0.4s;
   width: 3.8rem;
   height: 3.8rem;
 }
 
-.facebook {
-  fill: #4267b2;
-}
-
 .facebook:hover,
 .instagram:hover,
 .youtube:hover,
-.github:hover {
+.github:hover,
+.blog:hover {
   transform: translateY(-0.3rem);
+}
+
+.facebook {
+  fill: #4267b2;
 }
 
 .instagram {
@@ -551,6 +553,10 @@ figcaption {
 
 .github {
   fill: var(--text-claro);
+}
+
+.blog {
+  color: var(--text-claro);
 }
 
 .footer__img {
